@@ -1,0 +1,230 @@
+!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"> 
+            </script>
+         
+         <style>
+             #redball{ position:absolute; }
+         </style>
+            
+         <script>
+            function pfadeOut(){
+                var myparagraph=$("#hey");
+                myparagraph.fadeOut();
+            }
+            
+            function pfadeIn(){
+                var myparagraph=$("#hey");
+                myparagraph.fadeIn();
+            }
+            
+            function moveup(){
+                var ball=$("#redball");
+                ball.animate({"top":"-=10"},000,"linear");
+                
+            }
+            
+            function movedown(){
+                var ball=$("#redball");
+                ball.animate({"top":"+=100"},100,"linear");
+                
+            }
+            
+            function moveleft(){
+                var ball=$("#redball");
+                ball.animate({"left":"-=10"},1000,"linear");
+                
+            }
+               
+            function moveright(){
+                var ball=$("#redball");
+                ball.animate({"left":"+=10"},1000,"linear");
+                
+            }  
+            
+             function movesquare(){
+                var ball=$("#redball");
+                 ball.animate({"left":"+=100"},500,"linear");
+                 ball.animate({"top":"-=100"},500,"linear");
+                 ball.animate({"left":"-=100"},500,"linear");
+                 ball.animate({"top":"+=100"},500,"linear");
+                
+            }
+            
+            function movetriangle(){
+                var ball=$("#redball");
+                ball.animate({"left":"+=100"},500,"linear");
+                ball.animate({"left":"-=50","top":"-=50"},500,"linear");
+                ball.animate({"left":"-=50","top":"+=50"},500,"linear");
+            }
+               
+               
+             function moveoctagon(){
+                var ball=$("#redball")
+                ball.animate({"left":"+=100"},500,"linear");
+                ball.animate({"top":"-=50","":"-=50"},500,"linear");
+                ball.animate({"left":"-=50","top":"+=50"},500,"linear");
+                 
+             } 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                     
+        </script>    
+        
+    </head>
+            <body>
+                
+            <p id="hey">
+                 My first Paragraph
+            </p>
+                
+            <p>
+                My Second Paragraph
+            </p>
+            
+            <p>
+        <button onclick="pfadeOut()">Fade Out</button>
+        
+        <button onclick="pfadeIn()">Fade In</button>
+        
+        
+        
+        <button onclick="moveleft()">left center</button>
+        
+        <button onclick="moveright()">right center</button>
+        
+        <button onclick="moveup()">top center</button>
+        
+        <button onclick="movedown()">down center</button>
+        
+        <button onclick="moveupoverright()">right upper corner</button>
+        
+        <button onclick="movedownoverright()">right lower corner</button>
+        
+        <button onclick="moveupoverleft()">left upper corner</button>
+        
+        <button onclick="movedownoverleft()">left lower corner</button>
+        
+        <button onclick="movetriangle()">triangle</button>
+        
+        <button onclick="movesquare()">square</button>
+        
+        <button onclick="moveoctagon()">octagon</button>
+        
+        <img id="redball" src="http://storage.googleapis.com/ics-redball/redball.jpg"/>
+            </p>
+            
+            
+            
+     
+            </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
